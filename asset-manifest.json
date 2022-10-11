@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d93e795e.css",
-    "main.js": "/static/js/main.4a6e7a63.js",
-    "static/js/787.9a79330b.chunk.js": "/static/js/787.9a79330b.chunk.js",
-    "static/media/page-not-found.png": "/static/media/page-not-found.c0bc7d0b97fa8387bee7.png",
-    "static/media/cart-empty.png": "/static/media/cart-empty.563d50e7128e427b39cf.png",
-    "index.html": "/index.html",
-    "main.d93e795e.css.map": "/static/css/main.d93e795e.css.map",
-    "main.4a6e7a63.js.map": "/static/js/main.4a6e7a63.js.map",
-    "787.9a79330b.chunk.js.map": "/static/js/787.9a79330b.chunk.js.map"
+    "main.css": "/react-ecart/static/css/main.d93e795e.css",
+    "main.js": "/react-ecart/static/js/main.689c50a1.js",
+    "static/js/787.9a79330b.chunk.js": "/react-ecart/static/js/787.9a79330b.chunk.js",
+    "static/media/page-not-found.png": "/react-ecart/static/media/page-not-found.c0bc7d0b97fa8387bee7.png",
+    "static/media/cart-empty.png": "/react-ecart/static/media/cart-empty.563d50e7128e427b39cf.png",
+    "index.html": "/react-ecart/index.html",
+    "main.d93e795e.css.map": "/react-ecart/static/css/main.d93e795e.css.map",
+    "main.689c50a1.js.map": "/react-ecart/static/js/main.689c50a1.js.map",
+    "787.9a79330b.chunk.js.map": "/react-ecart/static/js/787.9a79330b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d93e795e.css",
-    "static/js/main.4a6e7a63.js"
+    "static/js/main.689c50a1.js"
   ]
 }
