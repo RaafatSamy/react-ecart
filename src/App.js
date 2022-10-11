@@ -18,8 +18,8 @@ function App() {
     >
       <Header />
       <Router>
-        <Home path="/" />
-        <Cart path="/cart" />
+        <Home path="react-ecart/" />
+        <Cart path="react-ecart/cart" />
         <PageNofFound path="**" />
       </Router>
     </main>

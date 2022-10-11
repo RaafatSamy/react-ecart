@@ -19,7 +19,6 @@ function Home() {
 
   useEffect(() => {
     getResponse();
-    console.log(productData);
   }, []);
 
   return (
