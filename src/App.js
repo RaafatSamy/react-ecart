@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Home path="/" />
         <Cart path="/cart" />
-        {/* <PageNofFound path="/*" /> */}
+        <PageNofFound path="/*" />
       </Router>
     </main>
   );
