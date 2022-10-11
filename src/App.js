@@ -18,9 +18,9 @@ function App() {
     >
       <Header />
       <Router>
-        <Home path="/" />
-        <Cart path="/cart" />
-        <PageNofFound path="/*" />
+        <Home path="react-ecart/" />
+        <Cart path="react-ecart/cart" />
+        <PageNofFound path="react-ecart/*" />
       </Router>
     </main>
   );
