@@ -20,8 +20,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="react-ecart/" element={<Home />} />
+          <Route path="react-ecart/cart" element={<Cart />} />
           <Route path="*" element={<PageNofFound />} />
         </Routes>
       </Router>
