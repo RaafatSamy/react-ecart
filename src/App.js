@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Home path="react-ecart/" />
         <Cart path="react-ecart/cart" />
-        <PageNofFound path="**" />
+        <PageNofFound path="react-ecart/**" />
       </Router>
     </main>
   );
