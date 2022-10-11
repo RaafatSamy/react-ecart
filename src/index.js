@@ -7,16 +7,27 @@ import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "./GlobalComponents/ThemeProvider";
 import { CartProvider } from "react-use-cart";
 
-render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
     <ThemeProvider>
       <CartProvider>
         <App />
       </CartProvider>
     </ThemeProvider>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
+
+// render(
+//   <React.StrictMode>
+//     <ThemeProvider>
+//       <CartProvider>
+//         <App />
+//       </CartProvider>
+//     </ThemeProvider>
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
 
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(

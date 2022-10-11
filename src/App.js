@@ -4,7 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useThemeHook } from "./GlobalComponents/ThemeProvider";
 import Header from "./Components/Header";
 // pages
-import { Router } from "@reach/router";
+//import { Router } from "@reach/router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Cart from "./Pages/Cart";
 import PageNofFound from "./Pages/PageNofFound";
@@ -16,11 +17,13 @@ function App() {
       className={theme ? "bg-black" : "bg-light-2"}
       style={{ height: "100vh", overflowY: "auto" }}
     >
-      <Header />
       <Router>
-        <Home path="/" />
-        <Cart path="/cart" />
-        <PageNofFound path="/*" />
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="*" element={<PageNofFound />} />
+        </Routes>
       </Router>
     </main>
   );

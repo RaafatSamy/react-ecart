@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { ThemeContext } from "../GlobalComponents/ThemeProvider";
 import { BiSun, BiMoon, BiCart } from "react-icons/bi";
-import { Link } from "@reach/router";
+import { Link } from "react-router-dom";
 import { useCart } from "react-use-cart";
 
 function Header() {
