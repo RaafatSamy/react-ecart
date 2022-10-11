@@ -1,0 +1,56 @@
+/* Start Dark Theme */
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-light-black{
+  background-color:#262626 !important;
+  z-index: 1000;
+}
+
+.text-black{
+  color : black
+}
+
+.text-light-black{
+  color : #262626
+}
+
+.bg-dark-primary{
+  background-color: #fcbc73 !important ;
+}
+
+.text-dark-primary{
+  color: #fcbc73 !important;
+}
+/* End Dark Theme */
+
+/* Start Light Theme */
+
+.bg-light{
+  background-color: white;
+}
+
+.text-light{
+  color : white
+}
+.bg-light-2{
+  background-color: #dadcde;
+}
+
+
+.bg-light-primary{
+  background-color: #191659 !important;
+}
+.text-light-primary{
+  color : #191659 !important ;
+
+}
+
+/* End Light Theme */
+
+
+.bg-light-color{
+  background-color: #262626;
+}
