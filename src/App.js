@@ -18,7 +18,7 @@ function App() {
       style={{ height: "100vh", overflowY: "auto" }}
     >
       <Router>
-        <Header />
+        <Header basename="/react-ecart" />
         <Routes>
           <Route path="react-ecart/" element={<Home />} />
           <Route path="react-ecart/cart" element={<Cart />} />
