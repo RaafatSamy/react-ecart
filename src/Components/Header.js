@@ -27,7 +27,7 @@ function Header() {
       style={{ width: "100%", zIndex: 1000000 }}
     >
       <Container>
-        <Link to="react-ecart/">
+        <Link to="/">
           <Navbar.Brand
             className={darkMode ? "text-dark-primary" : "text-light-primary"}
           >
@@ -44,7 +44,7 @@ function Header() {
               {darkMode ? <BiSun size="1.7rem" /> : <BiMoon size="1.7rem" />}
             </Nav.Link>
             <Link
-              to="react-ecart/cart"
+              to="/cart"
               className={`${
                 darkMode ? "text-darkprimary" : "text-light-primary"
               } d-flex align-items-center `}
